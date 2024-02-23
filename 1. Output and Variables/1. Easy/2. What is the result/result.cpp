@@ -9,5 +9,5 @@ int main(){
     bool r = true;
     
 
-    cout<<(p==q==r); // will give error
+    cout<<(p==q==r); // 1 
 }
