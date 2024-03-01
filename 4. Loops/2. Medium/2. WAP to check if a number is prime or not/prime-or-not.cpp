@@ -1,4 +1,4 @@
-// WAP to check if a number is prime or not
+// WAP to check if a number is prime or composite
 
 #include <iostream>
 using namespace std;
@@ -23,7 +23,7 @@ int main(){
     {
         cout << "The Number is a Prime-Number";
     } else {
-        cout << "The Number is not a Prime-Number";
+        cout << "The Number is not a Prime-Number, It means that it is a composite number";
     }
     
 
