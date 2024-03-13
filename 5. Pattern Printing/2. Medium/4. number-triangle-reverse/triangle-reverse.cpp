@@ -6,14 +6,19 @@
 // 1 2
 // 1
 
+
 #include <iostream>
 using namespace std;
 int main(){
-    for (int i = 4; i > 0; i--)
+    int n;
+    cout << "Enter the number : ";
+    cin >> n;
+
+    for (int i = n; i > 0; i--)
     {
         for (int j = i; j > 0; j--)
         {
-            cout << i-(j-1);
+            cout << i-(j-1) << " ";
         }
         
         cout << "\n";
