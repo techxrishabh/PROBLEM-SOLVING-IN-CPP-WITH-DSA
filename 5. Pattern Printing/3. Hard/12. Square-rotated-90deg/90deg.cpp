@@ -51,5 +51,41 @@ int main(){
         
         
     }
+    int t = 0;
+    for (int i = 1; i <= 3; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            cout << " ";
+        }
+        for (int k = 1; k <= 1; k++)
+        {
+            cout << "*";
+        }
+        for (int m = 1; m <= 5-t; m++)
+        {
+            cout << " ";
+        }
+        for (int n = 1; n <= 1; n++)
+        {
+            cout << "*";
+        }
+        
+            t = t + 2;
+        cout << "\n";
+    }
+    for (int i = 1; i <= 1; i++)
+    {
+        for (int j = 1; j <= 4; j++)
+        {
+            cout << " ";
+        }
+        for (int k = 1; k <= 1; k++)
+        {
+            cout << "*";
+        }
+
+    }
+    cout << "\n";
     
 }
